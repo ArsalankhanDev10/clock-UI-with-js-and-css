@@ -6,6 +6,7 @@ function toggle() {
     var mode = document.getElementById("bt");
     var center = document.getElementById("center");
     var second = document.getElementById("second");
+    var text = document.getElementById("text");
 
     if (state) {
         body.style.backgroundColor = "#c1c1c4";
@@ -24,6 +25,8 @@ function toggle() {
         mode.style.color = "#111";
         center.style.background = "#cbc";
         second.style.background = "#cbc";
+        text.style.color = "	#FFD700";
+
 
         state = true;
     }
