@@ -20,6 +20,13 @@ body {
     border-radius: 50%;
 }
 
+#clock div {
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
 .clock1 {
     box-shadow: -8px -8px 20px #e1e1e4, 8px 8px 20px #717176, inset -4px -4px 20px #e1e1e4, inset 4px 4px 20px #727276;
 }
@@ -35,6 +42,7 @@ body {
     background: #111;
     color: #eee;
     font-size: 1rem;
+    font-fam: Gabriola;
     letter-spacing: 2px;
     border-radius: 12px;
     font-weight: 600;
